@@ -65,9 +65,9 @@ public class Invoice{
             totalIncl += (p.getProduct().getPrice()*p.getQuantity()*(p.getProduct().getTaxPercentage()+1f));
         }
         System.out.println();
-        System.out.printf("%-20s %5.2f%n", "Total before Tax:" ,getSumExcl());
+        System.out.printf("%-20s %5.2f%n", "Total before Tax:" ,totalExcl);
         System.out.printf("%-20s %5.2f%n", "Tax", totalIncl-totalExcl);
-        System.out.printf("%-20s %5.2f%n", "Total after Tax:", getSumIncl());
+        System.out.printf("%-20s %5.2f%n", "Total after Tax:", totalIncl);
         System.out.println("---------------------------------------------------------------");
         System.out.println();
     }
