@@ -66,9 +66,9 @@ public class myShop {
             totalIncl += c.getSumIncl();
         }
         System.out.println();
-        System.out.printf("%-20s %5.2f%n", "Total of Day before Tax:" ,totalExcl);
-        System.out.printf("%-20s %5.2f%n", "Tax of Day", totalIncl-totalExcl);
-        System.out.printf("%-20s %5.2f%n", "Total of Day after Tax:", totalIncl);
+        System.out.printf("%-30s %5.2f%n", "Total of Day before Tax:" ,totalExcl);
+        System.out.printf("%-30s %5.2f%n", "Tax of Day", totalIncl-totalExcl);
+        System.out.printf("%-30s %5.2f%n", "Total of Day after Tax:", totalIncl);
         System.out.println("---------------------------------------------------------------");
         System.out.println();
 
