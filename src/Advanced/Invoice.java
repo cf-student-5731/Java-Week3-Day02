@@ -42,7 +42,6 @@ public class Invoice{
         positions.add(position);
     }
 
-
     public void setNumber(int number) {
         this.number = number;
     }
